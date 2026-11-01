@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{   int bc,hr,ma,Ts;
+    cout<<"basic salary, house rent, medical allowance,gross salary"<<endl;
+    cin>>bc;
+    cin>>hr;
+    cin>>ma;
+    Ts=bc+hr+ma;
+    cout<<"Gross salary= "<<Ts;
+    return 0;
+}
