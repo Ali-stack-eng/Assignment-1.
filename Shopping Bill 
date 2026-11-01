@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main()
+{   int Nb,p,tb;
+    cout<<"Numbers of Notebooks,Pens"<<endl;
+    Nb=3*120;
+    p=2*40;
+    tb=Nb+p;
+    cout<<"Total bill = "<<tb;
+    return 0;
+}
