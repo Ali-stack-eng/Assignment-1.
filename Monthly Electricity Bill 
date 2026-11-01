@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{   float eu,peru,tb;
+    cout<<"Electricity units consumed"<<endl;
+    cin>>eu;
+    cout<<"Price per unit"<<endl;
+    cin>>peru;
+    tb=eu*peru;
+    cout<<"Total bill = "<<tb;
+    return 0;
+}
