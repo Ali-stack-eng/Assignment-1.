@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main()
+{   float Tb,Nof,Perf;
+    cout<<"Total bill, Number of friends, Payment per friend"<<endl;
+    Nof=3;
+    cin>>Tb;
+    Perf=Tb/Nof;
+    cout<<"Payment per friend = "<<Perf;
+    return 0;
+}
